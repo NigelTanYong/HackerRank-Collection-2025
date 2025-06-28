@@ -20,7 +20,7 @@ class Result {
 //Time complexity: O(nlogn) , Space complexity: O(1);
     public static void miniMaxSum(List<Integer> arr) {
     // Write your code here
-        long minSum = 0, maxSum = 0; //use long cuz of constraints 64-bit integer
+        long minSum = 0L, maxSum = 0L; //use long cuz of constraints 64-bit integer
         Collections.sort(arr);
         for(int i=0; i<arr.size()-1; i++){
             minSum+=arr.get(i);
