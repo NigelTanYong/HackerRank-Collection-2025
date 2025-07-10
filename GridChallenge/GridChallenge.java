@@ -18,7 +18,7 @@ class Result {
      * The function is expected to return a STRING.
      * The function accepts STRING_ARRAY grid as parameter.
      */
-
+//Time complexity: O(n × m log m), Space complexity: O(1)
     public static String gridChallenge(List<String> grid) {
     // Write your code here
         //sort first
