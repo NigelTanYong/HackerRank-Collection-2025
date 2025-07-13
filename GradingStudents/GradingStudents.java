@@ -18,7 +18,7 @@ class Result {
      * The function is expected to return an INTEGER_ARRAY.
      * The function accepts INTEGER_ARRAY grades as parameter.
      */
-
+//time complexity: O(n), space Complexity:O(1)
     public static List<Integer> gradingStudents(List<Integer> grades) {
     // Write your code here
         int size = grades.size();
