@@ -35,6 +35,7 @@ class Result {
                 countApples++;
             }
         }
+        //for oranges
         for(int i=0; i<orangesNum; i++){
             int orangeLandedPos = b+oranges.get(i);
             if(orangeLandedPos>=s && orangeLandedPos<=t){
